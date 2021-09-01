@@ -510,6 +510,12 @@ main .secaoContato-informacoes h2 {
         display: none;
     }
 
+    .secaoDestaqueFormulario button:hover {
+        transition: 1s;
+        cursor: pointer;
+        background-color: var(--azul-escuro);
+    }
+
     .large-container nav {
         display: flex;
         flex-direction: row;
@@ -640,6 +646,13 @@ main .secaoContato-informacoes h2 {
         margin-bottom: 70px;
     }
 
+    main .secaoCursos article ul li img:hover {
+        filter: grayscale(100%);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+
     main .secaoCursos article ul li h3{
        font-size: 19px;
     }
@@ -672,9 +685,15 @@ main .secaoContato-informacoes h2 {
         width: 25vw;
         margin: 10px 10px 0 10px;
     }
-
+    
     main .secaoCalendar .calendario li .border {
         width: 25vw;
+    }
+
+    main .secaoCalendar .calendario li .calendario-data-rodape button:hover {
+        transition: 1s;
+        background-color: #00043e;
+        cursor: pointer;
     }
 
     main .secaoCalendar .calendario li h3 {
@@ -805,12 +824,9 @@ main .secaoContato-informacoes h2 {
     }
 
     input[value="Send"] {
-        left: 490px;
+        left: 560px;
     }
 }
   
-    @media screen and (min-width: 800px) {
-        
-    }
-
+  
 /* MEDIA QUERIES */
